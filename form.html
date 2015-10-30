@@ -1,0 +1,125 @@
+<!DOCTYPE html-5>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel= "stylesheet" href= "css/reset.css">
+		<link rel= "stylesheet" href= "css/stylef.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+
+	<body>
+		<nav>
+			<a id="logoNav" href="index.html">HomeStay</a>
+
+			<a href="index.html">Home</a>
+			·
+			<a href="Stay.html">Stay</a>
+			·
+			<a href="About.html">About</a>
+			·
+			<a href="form.html">Register/Log-In</a>
+		</nav>
+
+		<div id="register">
+
+				<video controls poster = "video/Comfy.jpg" preload="auto" autoplay  id="bgvid">
+				   <source src ="video/Comfy.mp4" type="video/mp4"/>
+				   <source src ="video/Comfy.ogv" type="video/ogv"/>
+				   <source src ="video/Comfy.webm" type="video/webm"/>
+				</video>
+
+				<div id="join-register" class="register-now">
+					<h2>Sign Up Today</h2>
+					<br>
+					<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+
+					<div class= "formcontainer">
+						<form id="UserRegForm" action="server_side_Script.php" method= "get">
+							<fieldset>
+								<!--<legend>Registration</legend>-->
+
+								<p>
+									<label for= "firstname">Firstname</label>
+									<input type= "text" name= "fname" autofocus required/>	
+								</p>
+
+								<p>
+									<label for= "surname">Surname</label>
+									<input type= "text" name= "sname" required/>
+								</p>	
+
+								<p>
+									<label for= "email">Email</label>
+									<input type= "email" name= "email" required/>
+								</p>
+
+								<p>
+									<label for= "phone">Phone</label>
+									<input type= "tel" pattern = "[0][8][0-9]{8}" name= "email" required/>
+								</p>
+
+								<p>
+									<label for= "nationality">Nationality</label>
+									<select id= "idnationality">
+										<optgroup label= "Popular">
+											<option value= "Irish">Irish</option>
+											<option value= "British">British</option>
+											<option value= "Northern Irish">Northern Irish</option>
+										</optgroup>
+										<optgroup label= "Other Nationalities">
+											<option value= "American">American</option>
+											<option value= "Australian">Australian</option>
+											<option value= "Canadian">Canadian</option>
+											<option value= "Chinese">Chinese</option>
+											<option value= "Indian">Indian</option>
+											<option value= "Italian">Italian</option>
+										</optgroup>
+									</select>
+								</p>
+								<input type= "submit" value= "Submit" id= "submit"/>
+							</fieldset>
+						</form>
+					</div>
+				</div>
+
+
+			<footer class="footer-distributed">
+
+
+						<div class="footer-left">
+
+							<p class="footer-links">
+							    ·
+								<a href="index.html">Home</a>
+								·
+								<a href="Stay.html">Stay</a>
+								·
+								<a href="About.html">About</a>
+								·
+								<a href="form.html">Register</a>
+								·
+							</p>
+
+							<p>HomesStay &copy; 2015</p>
+						</div>
+
+						<div class="footer-right">
+
+							<a href="http://facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
+							<a href="http://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
+							<a href="http://linkedin.com" target="_blank"><i class="fa fa-linkedin"></i></a>
+							<a href="http://github.com" target="_blank"><i class="fa fa-github"></i></a>
+
+						</div>
+
+					</footer>
+
+
+	    </div>
+
+
+			
+	</body>
+
+</html>

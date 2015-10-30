@@ -1,0 +1,51 @@
+$(document).ready(function(){
+	console.log("starting");
+
+	$("#dublin_btn").click(function(){
+		$(".port-img-3").removeClass("red");
+		$(".port-img-5").removeClass("red");
+		$(".port-img-8").removeClass("red");
+		$(".port-img-1").addClass("red");
+		$(".port-img-2").addClass("red");
+		$(".port-img-4").addClass("red");
+		$(".port-img-6").addClass("red");
+		$(".port-img-7").addClass("red");
+		$(".port-img-9").addClass("red");
+	});
+
+	$("#cork_btn").click(function(){
+		$(".port-img-2").removeClass("red");
+		$(".port-img-6").removeClass("red");
+		$(".port-img-9").removeClass("red");
+		$(".port-img-1").addClass("red");
+		$(".port-img-3").addClass("red");
+		$(".port-img-4").addClass("red");
+		$(".port-img-5").addClass("red");
+		$(".port-img-7").addClass("red");
+		$(".port-img-8").addClass("red");
+	});
+
+	$("#belfast_btn").click(function(){
+		$(".port-img-4").removeClass("red");
+		$(".port-img-1").removeClass("red");
+		$(".port-img-7").removeClass("red");
+		$(".port-img-2").addClass("red");
+		$(".port-img-3").addClass("red");
+		$(".port-img-5").addClass("red");
+		$(".port-img-6").addClass("red");
+		$(".port-img-8").addClass("red");
+		$(".port-img-9").addClass("red");
+	});	
+
+	$("#all_btn").click(function(){
+		$(".port-img-4").removeClass("red");
+		$(".port-img-1").removeClass("red");
+		$(".port-img-7").removeClass("red");
+		$(".port-img-2").removeClass("red");
+		$(".port-img-3").removeClass("red");
+		$(".port-img-5").removeClass("red");
+		$(".port-img-6").removeClass("red");
+		$(".port-img-8").removeClass("red");
+		$(".port-img-9").removeClass("red");
+	});	
+});

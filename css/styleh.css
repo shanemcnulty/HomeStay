@@ -1,0 +1,368 @@
+@font-face{
+		font-family: 'Satellite';
+		src: url("../font/Satellite.otf") format("opentype");
+	}
+
+/*.................................................*/
+
+nav{
+	margin: 10px auto;
+	width: 100%;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	align-items:stretch;
+	border-radius: 10px;
+	padding: 0;	
+}
+		
+a{
+	text-decoration: none;
+	flex:1;
+	height: 30px;
+	padding:20px 20px 20px 20px;
+	text-align: center;
+	font-size: 1.5em;
+	font-family:'Satellite';
+	color: black;
+
+}
+#logoNav{
+	margin-bottom: 20px; 
+	font-size: 2.5em;
+	font-weight: bold;
+	font-family:'Satellite';
+	}
+
+/*.................................................*/
+
+#register{
+	background-image: url("../img/home.png");
+	background-size: cover;
+	height: 400px;
+	text-align: center;
+	font-family: 'Satellite';
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.register-now{
+	padding-top: 50px;
+	padding-bottom: 10px;
+	background-color: rgba(30,40,50,0.5);
+	color: white;
+	font-family: 'Satellite';
+	font-weight: bold;
+	height: 200px;
+}
+.login-now{
+	background-color: rgba(255,255,255,.8);
+	padding: 20px 0 20px 0;	
+	font-weight: none;
+	height: 100px;
+}
+
+h2{
+	font-size: 35px;
+
+}
+
+h3{
+	font-size: 20px;
+
+}
+
+#button{
+	border: solid 1px;
+	width: 200px;
+	font-size: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	padding: 5px;
+}
+
+#button:hover{
+	background-color: white;
+	color: rgba(30,40,50,1);
+	border: solid white 1px;
+}
+
+#infotitle{
+	font-weight: bold;
+	padding: 20px;
+	padding-top: 50px;
+}
+
+#infotitle1{
+	font-weight: bold;
+	padding-bottom: 0px;
+}
+
+#infodecription{
+	width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 50px; 
+	font-weight: bold;
+}
+
+/*.................................................*/
+
+/* Form wrapper styling */
+.form-wrapper {
+    width: 50%;
+    height: 25px;
+    padding: 0px;
+    margin: 20px auto 10px auto;
+}
+
+/* Form text input */
+
+.form-wrapper input {
+    width: 70%;
+    height: 40px;
+    padding: 0px 5px;
+    float: left;     
+}
+
+.form-wrapper input:focus {
+    outline: 0;
+}
+
+.form-wrapper input::-webkit-input-placeholder {
+   font-weight: normal;
+}
+
+.form-wrapper input:-moz-placeholder {
+    font-weight: normal;
+}
+
+.form-wrapper input:-ms-input-placeholder {
+    font-weight: normal;
+}    
+
+/* Form submit button */
+.form-wrapper button {
+    overflow: visible;
+    position: relative;
+    float: right;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    height: 40px;
+    width: 30%;
+    color: #fff;
+    text-transform: uppercase;
+    background: rgba(30,40,50,0.5);   
+}   
+  
+.form-wrapper button:hover{		
+    background: rgba(30,40,50,0.6);
+}	
+  
+.form-wrapper button:active,
+.form-wrapper button:focus{   
+    background:rgba(30,40,50,0.5);
+	outline: 0;   
+}
+
+.form-wrapper button:hover:before{
+    border-right-color: rgba(30,40,50,0.6);
+}
+
+.form-wrapper button:focus:before,
+.form-wrapper button:active:before{
+        border-right-color: rgba(30,40,50,0.6);
+}      
+
+.form-wrapper button::-moz-focus-inner { /* remove extra button spacing for Mozilla Firefox */
+    border: 0;
+    padding: 0;
+}    
+
+/*.................................................*/
+
+.footer-distributed{
+	height: 150px;
+	display: flex;
+	flex-direction:column;
+	flex-wrap: wrap;
+	justify-content:center;
+	border-top: solid black 1px;
+}
+
+.footer-distributed .footer-left p{
+	color: black;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+/* Footer links */
+
+.footer-distributed p.footer-links{
+	font-size:14px;
+	color: black;
+}
+
+.footer-distributed .footer-right a{
+	font-size: 20px;
+	color: black;
+}
+
+/*.................................................*/
+
+.flex-container{
+	display: flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+	justify-content:center;
+	margin: 20px 0 40px 0px;
+	padding: 0;
+	text-align: center;
+    width: 100%
+}
+
+.flex-item {
+    width: 350px;
+    height:350px;
+    margin: 10px;
+    transition: all 0.4s ease-in-out;
+}
+
+.port-img-1{
+	background-image: url(../img/people.png);
+    background-size: cover;
+}
+
+.port-img-2 {
+    background-image: url(../img/location.png);
+    background-size: cover;
+}
+
+.port-img-3 {
+    background-image: url(../img/hotel.png);
+    background-size: cover;
+}
+
+.port-info {
+    background-color: rgba(30,40,50,0.5); 
+    width: inherit;
+    height: inherit; 
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+    transform: scale(0);
+}
+
+.port-info h2 {
+	color: #fff;
+	letter-spacing: 2px;
+    font-size: 35px;
+    font-weight: bolder;
+    margin: 0 30px;
+    padding: 45px 0 0 0;
+    height: 100px;
+}
+
+.port-info p {
+    color: #fff;
+    padding: 10px 5px;
+    margin: 0 30px;
+    font-size: 25px;
+    font-weight: bold;
+    opacity: 0;
+    transition: all 1s ease-in-out 0.4s;
+}
+
+.port-info p a:hover {
+    color: #fff222;
+    color: rgba(30,40,50,0.5);
+}
+
+.flex-item:hover .port-info {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.flex-item:hover .port-info p {
+    opacity: 1;
+}
+
+/*.................................................*/
+
+
+@media screen and (min-width: 700px){
+
+	nav{
+		display: flex;
+		flex-direction: row;
+		align-items:baseline;
+		height: 70px;
+	}
+
+	a{
+		flex:1;
+		border: none;
+		font-size: 1em;
+	}
+
+	#logoNav{
+		flex:5;
+		text-align: left;
+		}
+
+	.container{
+		display: flex;
+	}
+
+	#register{
+		width: 100%;
+		height: 450px;
+	}
+
+	#button{
+		margin-top: 20px;
+		padding: 20px;
+	}
+
+	.register-now{
+		padding: 60px 0 0px 0;
+		background-color: rgba(30,40,50,0.5);
+		color: white;
+		font-family: 'Satellite';
+		font-weight: bold;
+		height: 230px;
+	}
+	.login-now{
+		background-color: rgba(255,255,255,.8);
+		font-weight: none;
+		height: 120px;
+		font-weight: bold;
+	}
+
+	h2{
+		font-size: 35px;
+
+	}
+
+	h3{
+		font-size: 25px;
+
+	}
+
+	.deck{
+		display:flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 50%;
+	}
+
+	.card{
+		margin: 10px;
+	}
+
+	.footer-distributed p.footer-links{
+	font-size:20px;
+}
+
+}

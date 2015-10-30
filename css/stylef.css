@@ -1,0 +1,286 @@
+@font-face{
+		font-family: 'Satellite';
+		src: url("../font/Satellite.otf") format("opentype");
+	}
+
+/*.................................................*/
+
+nav{
+	margin: 10px auto;
+	width: 100%;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	align-items:stretch;
+	border-radius: 10px;
+	padding: 0;	
+}
+		
+a{
+	text-decoration: none;
+	flex:1;
+	height: 30px;
+	padding:20px 20px 20px 20px;
+	text-align: center;
+	font-size: 1.5em;
+	font-family:'Satellite';
+	color: black;
+
+}
+#logoNav{
+	margin-bottom: 20px; 
+	font-size: 2.5em;
+	font-weight: bold;
+	font-family:'Satellite';
+	}
+
+/*.................................................*/
+
+#bgvid { 
+	position: absolute;
+	right: 2px;
+    z-index: -100;
+    background: url(../video/Comfy.jpg);
+    background-size: cover; 
+	height: 100%;
+    height: auto;
+    max-width: 1400px;
+}
+
+#register{
+	height: 1000px;
+	text-align: center;
+	font-family: 'Satellite';
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.register-now{
+	padding-top: 50px;
+	padding-bottom: 10px;
+	background-color: rgba(30,40,50,0.5);
+	color: white;
+	font-family: 'Satellite';
+	font-weight: bold;
+	height: 650px;
+}
+
+/*.................................................*/
+
+fieldset{
+    padding: 10px;
+    color: white;
+    margin-top: 30px;
+	}
+
+#UserRegForm {
+	margin-right: auto;
+	margin-left: auto;
+	width: 70%;
+	padding-top: 20px;
+	opacity: 0.95;
+}
+
+label {
+	font-size: 20px;
+	text-align: center;
+}
+
+legend{
+    font-size: 20px;
+    border: 1px solid white;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    opacity: 0.9;
+    margin-bottom: 20px;
+    }
+
+input{
+    width: 100%;
+    padding: 5px;
+    border: 1px solid white;
+    color: white;
+    margin: 10px 0;
+}
+
+#submit {
+	margin: 10px 0 0 0;
+	padding: 10px;
+	background-color: rgba(0,0,0,0);
+}
+
+#submit:hover {
+	background-color: white;
+	color: black;
+}
+#idnationality {
+	width: 100%;
+	height: 20px;
+	margin: 15px 0;
+	font-size: 20px;
+}
+/*.................................................*/
+
+h2{
+	font-size: 35px;
+
+}
+
+h3{
+	font-size: 20px;
+
+}
+
+#button{
+	border: solid 1px;
+	width: 200px;
+	font-size: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	padding: 5px;
+}
+
+#button:hover{
+	background-color: white;
+	color: rgba(30,40,50,1);
+	border: solid white 1px;
+}
+
+#infotitle{
+	font-weight: bold;
+	padding: 20px;
+	padding-top: 50px;
+}
+
+#infotitle1{
+	font-weight: bold;
+	padding-bottom: 0px;
+}
+
+#infodecription{
+	width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 50px; 
+	font-weight: bold;
+}
+
+/*.................................................*/
+
+.footer-distributed{
+	position: absolute;
+	margin-bottom:0px;
+	width: 100%;
+	height: 150px;
+	display: flex;
+	flex-direction:column;
+	flex-wrap: wrap;
+	justify-content:center;
+	border-top: solid black 1px;
+	background: white;
+	margin-bottom: 0;
+}
+
+.footer-distributed .footer-left p{
+	color: black;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+/* Footer links */
+
+.footer-distributed p.footer-links{
+	font-size:14px;
+	color: black;
+}
+
+.footer-distributed .footer-right a{
+	font-size: 20px;
+	color: black;
+}
+
+/*.................................................*/
+
+
+@media screen and (min-width: 700px){
+
+	nav{
+		display: flex;
+		flex-direction: row;
+		align-items:baseline;
+		height: 70px;
+	}
+
+	a{
+		flex:1;
+		border: none;
+		font-size: 1em;
+	}
+
+	#logoNav{
+		flex:5;
+		text-align: left;
+		}
+
+	.container{
+		display: flex;
+	}
+
+	#register{
+		width: 100%;
+		height: 450px;
+	}
+
+	#button{
+		margin-top: 20px;
+		padding: 20px;
+	}
+
+	.register-now{
+		padding: 60px 0 0px 0;
+		background-color: rgba(30,40,50,0.5);
+		color: white;
+		font-family: 'Satellite';
+		font-weight: bold;
+		height: 650px;
+	}
+	.login-now{
+		background-color: rgba(255,255,255,.8);
+		font-weight: none;
+		height: 120px;
+		font-weight: bold;
+	}
+
+	h2{
+		font-size: 35px;
+
+	}
+
+	h3{
+		font-size: 25px;
+
+	}
+
+	.deck{
+		display:flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 50%;
+	}
+
+		#UserRegForm {
+		width: 350px;
+
+	}
+
+	.card{
+		margin: 10px;
+	}
+
+	.footer-distributed p.footer-links{
+	font-size:20px;
+}
+
+}
